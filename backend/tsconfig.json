@@ -2,11 +2,11 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
-    "rootDir": "./",
+    "rootDir": "./src",
     "outDir": "./dist",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
-      "*": ["*"] // Map all paths directly
+      "*": ["*"]
     },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
