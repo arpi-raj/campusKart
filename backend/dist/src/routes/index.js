@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const express_2 = require("express");
 const cors_1 = __importDefault(require("cors"));
-const user_1 = require("./user");
+const user_1 = require("../database/user");
 const Port = 3000;
 const app = (0, express_1.default)();
 const router = (0, express_2.Router)();
